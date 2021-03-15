@@ -2,7 +2,7 @@
 Converts BS config code to a config-utils header file
 
 After starting the exe just copy pasta all your config creation code, and press enter until you see generated code. Then just put that into your header file.
-**Note** that it has to be similar to the example below!
+**Note** that it has to be similar to the example below (it uses regex)!
 input: 
 ```cpp
     getConfig().config.AddMember("Rainbow", rapidjson::Value().SetBool(true), allocator);
